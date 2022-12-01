@@ -1,0 +1,77 @@
+
+body {
+	background: #a29b96;
+	width: 1361px;
+	margin: auto;
+	padding-bottom:50px;
+	font-family: Arial, serif;
+}
+.dish-list {
+	background: #eeeceb;
+	padding: 10px;
+	border-radius: 5px;
+}
+.dish-list-header {
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+	column-gap: 15px;
+	/*row-gap: 10px;*/
+	font-size: 14pt;
+	color: white;
+	background: #414141;
+	padding: 7px 10px 5px 20px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 5px;
+}
+.dish-item {
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+	column-gap: 15px;
+	row-gap: 7px;
+	font-size: 14pt;
+	background: white;
+	padding: 13px 10px 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #adaaa8;
+}
+.dish-item:first-child {
+	margin-top:5px;
+}
+.form-item {
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+	column-gap: 15px;
+	font-size: 12pt;
+	background: #65b12b;
+	color: white;
+	padding: 10px 10px 5px 10px;
+	margin: -10px 10px 10px 10px;
+	border-radius: 5px;
+}
+.dishItemSelected {
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+	column-gap: 15px;
+	font-size: 12pt;
+	background: #005349;
+	color: white;
+	padding: 10px 10px 5px 10px;
+	margin: -10px 10px 10px 10px;
+	border-radius: 5px;
+}
+input, select {
+	font-size: 12pt;
+	margin-bottom:5px;
+}
+.clickable {
+	cursor: pointer;
+}
+.active {
+	background: #f7ffe5;
+}
+.cut-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
